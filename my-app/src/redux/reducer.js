@@ -1,4 +1,3 @@
-// src/redux/reducer.js
 import { combineReducers } from 'redux';
 import { SET_PLAY, START_GAME, RESET_GAME, SET_WINNER } from './action';
 

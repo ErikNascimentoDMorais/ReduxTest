@@ -1,5 +1,3 @@
-// src/redux/actions.js
-
 export const SET_PLAY = 'SET_PLAY';
 export const START_GAME = 'START_GAME';
 export const RESET_GAME = 'RESET_GAME';
