@@ -45,7 +45,11 @@ const pageReducer = (state = initialPageState, action) => {
         page: 'GAME_STARTED',
       };
     case RESET_GAME:
-      return initialPageState;
+      return {
+        ...state,
+        page: 'GAME_STARTED',
+        currentPlayer: 'X'
+      };
     case 'SET_NEXT_PLAYER':
       return {
         ...state,
